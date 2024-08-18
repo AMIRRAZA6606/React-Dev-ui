@@ -9,7 +9,7 @@ const Del = () => {
 
  console.log(id)
     const delData=async()=>{
-        await axios.delete(`https://65eed0f1ead08fa78a4ef89e.mockapi.io/Crud-form/${id}`)
+        await axios.delete(`https://66c1ff69f83fffcb587ae321.mockapi.io/users/${id}`)
        
         navigate('/read')
         // Getdata()
