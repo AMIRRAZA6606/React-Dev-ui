@@ -19,7 +19,7 @@ const Signup = () => {
                 alert("plz fill the form first")
             }
     else{
-        await  axios.post('https://65eed0f1ead08fa78a4ef89e.mockapi.io/Crud-form',{
+        await  axios.post('https://66c1ff69f83fffcb587ae321.mockapi.io/users',{
             fullname:fullname,
             email:email,
             password:password,
