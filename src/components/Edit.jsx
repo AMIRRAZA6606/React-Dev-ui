@@ -11,7 +11,7 @@ const [role,setRole]= useState("")
 const {id} = useParams()
 
     const EditData =async()=>{
-        const data = await axios.get(`https://65eed0f1ead08fa78a4ef89e.mockapi.io/Crud-form/${id}`)
+        const data = await axios.get(`https://66c1ff69f83fffcb587ae321.mockapi.io/users/${id}`)
         const result= data.data;
 
         setFullname(result.fullname)
