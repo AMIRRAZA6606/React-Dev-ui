@@ -7,7 +7,7 @@ const Getdata = () => {
    const navigate= useNavigate()
  const [mydata,setMydata] = useState([])
     const getdata=async()=>{
-        const data=await axios.get('https://65eed0f1ead08fa78a4ef89e.mockapi.io/Crud-form')
+        const data=await axios.get('https://66c1ff69f83fffcb587ae321.mockapi.io/users')
          const result= data.data;
          console.log(result)
    setMydata(result)
